@@ -62,6 +62,11 @@ function getLanguage(langName) {
 			if (typeof langEN == "undefined") break;
 			langStrings = langEN;
 			break;
+		case "eesti":
+			langFile = "/lang/et.js";
+			if (typeof langET == "undefined") break;
+			langStrings = langET;
+			break;
 		case "italian":
 			langFile = "/lang/it.js";
 			if (typeof langIT == "undefined") break;
